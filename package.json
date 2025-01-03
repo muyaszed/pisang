@@ -1,0 +1,11 @@
+{
+  "name": "pisang",
+  "version": "1.0.0",
+  "description": "Bahasa programming dalam bahasa melayu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yazed Jamal",
+  "license": "ISC"
+}
