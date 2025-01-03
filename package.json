@@ -1,5 +1,6 @@
 {
   "name": "pisang",
+  "type": "module",
   "version": "1.0.0",
   "description": "Bahasa programming dalam bahasa melayu",
   "main": "index.js",
