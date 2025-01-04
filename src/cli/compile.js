@@ -5,5 +5,5 @@ import { parse } from "../parser/parse.js";
 import { desugar } from "../desugarer/desugar.js";
 import { emit } from "../emitter/emit.js";
 
-export const compile = (input, file = "stdin") =>
+export const compile = (input, file = "instd") =>
   emit(desugar(parse(expand(read(tokenize(input, file))))));
